@@ -54,12 +54,26 @@ SOUNDS_DATA = {
         'file': str(SOUNDS_DIR / 'wind.ogg'),
         'description': 'Vent dans les arbres'
     },
-    'fire': {
-        'name': 'Feu',
+    'fireplace': {
+        'name': 'Cheminée',
         'icon': '🔥',
         'category': 'nature',
-        'file': str(SOUNDS_DIR / 'fire.ogg'),
-        'description': 'Feu de camp crépitant'
+        'file': str(SOUNDS_DIR / 'fireplace.ogg'),
+        'description': 'Feu de cheminée crépitant'
+    },
+    'summer_night': {
+        'name': 'Nuit d\'\u00e9té',
+        'icon': '🌃',
+        'category': 'nature',
+        'file': str(SOUNDS_DIR / 'summer-night.ogg'),
+        'description': 'Ambiance d\'une nuit d\'\u00e9té'
+    },
+    'boat': {
+        'name': 'Bateau',
+        'icon': '⛵',
+        'category': 'nature',
+        'file': str(SOUNDS_DIR / 'boat.ogg'),
+        'description': 'Bateau sur l\'eau'
     },
     
     # Environnements
@@ -67,7 +81,7 @@ SOUNDS_DATA = {
         'name': 'Café',
         'icon': '☕',
         'category': 'environment',
-        'file': str(SOUNDS_DIR / 'coffee_shop.ogg'),
+        'file': str(SOUNDS_DIR / 'coffee-shop.ogg'),
         'description': 'Ambiance de café'
     },
     'train': {
@@ -77,12 +91,12 @@ SOUNDS_DATA = {
         'file': str(SOUNDS_DIR / 'train.ogg'),
         'description': 'Train en mouvement'
     },
-    'fan': {
-        'name': 'Ventilateur',
-        'icon': '🌬️',
+    'city': {
+        'name': 'Ville',
+        'icon': '🏙️',
         'category': 'environment',
-        'file': str(SOUNDS_DIR / 'fan.ogg'),
-        'description': 'Bruit de ventilateur'
+        'file': str(SOUNDS_DIR / 'city.ogg'),
+        'description': 'Ambiance urbaine'
     },
     
     # Bruits blancs
@@ -90,22 +104,15 @@ SOUNDS_DATA = {
         'name': 'Bruit blanc',
         'icon': '📡',
         'category': 'noise',
-        'file': str(SOUNDS_DIR / 'white_noise.ogg'),
+        'file': str(SOUNDS_DIR / 'white-noise.ogg'),
         'description': 'Bruit blanc pur'
     },
     'pink_noise': {
         'name': 'Bruit rose',
         'icon': '🎵',
         'category': 'noise',
-        'file': str(SOUNDS_DIR / 'pink_noise.ogg'),
+        'file': str(SOUNDS_DIR / 'pink-noise.ogg'),
         'description': 'Bruit rose'
-    },
-    'brown_noise': {
-        'name': 'Bruit brun',
-        'icon': '🔉',
-        'category': 'noise',
-        'file': str(SOUNDS_DIR / 'brown_noise.ogg'),
-        'description': 'Bruit brun'
     },
 }
 
