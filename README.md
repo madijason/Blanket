@@ -1,6 +1,6 @@
 # Blanket - Windows Edition
 
-![Blanket Logo](assets/icon.png)
+<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/14b66173-f359-49af-9bbf-67e4ab803b97" />
 
 **Écoutez différents sons d'ambiance pour améliorer votre concentration et productivité**
 
